@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.light-mode-bg {
+    @apply bg-gradient-to-b from-purple-600 to-indigo-700;
+}
+
+.dark-mode-bg {
+    @apply bg-gradient-to-b from-gray-900 to-gray-800;
+}
+
+.blue-text-color {
+    @apply text-indigo-600
+}
+
+
+  
